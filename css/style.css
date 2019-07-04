@@ -1,0 +1,85 @@
+body {
+	background: url('background_image.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+	background: rgba(0,0,0,0.4);
+	padding-left:30px;
+	padding-top:10px;
+}
+
+.jumbotron{
+	background-image: url("../img/jumbotron.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:340px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top:80px;
+}
+
+.leftS{
+	float:left;
+}
+
+.rightS{
+	
+	float:right;
+	color:white;
+	text-align:center;
+}
+
+.container-fluid{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#leftside{
+	background: url("../img/left_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:480px;
+	color:white;
+	font-size: 20px;
+}
+
+#firstline{
+	color:white;
+	border-width:5px;
+	width:50%;
+}
+
+#secondline{
+	color:white;
+	border-width:5px;
+	width:20%;
+}
+
+#rightside{
+	background-color: rgba(135, 206, 250, 0.6);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	height:480px;
+}
+
+#subsection{
+	background-image: url("../img/subsection.jpg");
+	height:100px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer{
+	background-color: rgba(135, 206, 250, 0.9);
+}
+
+.pull-left{
+	color:white;
+}
